@@ -1,0 +1,44 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+warning: unused variable: `dep`
+  --> src/packages/solvers.rs:23:17
+   |
+23 |             for dep in dep_list {
+   |                 ^^^ help: if this is intentional, prefix it with an underscore: `_dep`
+   |
+   = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `pkg_satisfying`
+  --> src/packages/solvers.rs:70:25
+   |
+70 |             if let Some(pkg_satisfying) = self.dep_is_satisfied(dependency_group) {
+   |                         ^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_pkg_satisfying`
+
+warning: unused variable: `pkg_satisfying`
+   --> src/packages/solvers.rs:110:21
+    |
+110 |         if let Some(pkg_satisfying) = self.dep_is_satisfied(dependency_group) {
+    |                     ^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_pkg_satisfying`
+
+warning: unused variable: `matched`
+   --> src/packages/parsers.rs:101:34
+    |
+101 | ...                   Some(matched) => {
+    |                            ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_matched`
+
+warning: unused variable: `current_package_num`
+  --> src/packages/parsers.rs:88:53
+   |
+88 |     fn handle_dependencies(&mut self, depends:&str, current_package_num:&i32, pkgver_regexp:&Regex) -> Vec<Dependency>{
+   |                                                     ^^^^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_current_package_num`
+
+warning: unused variable: `data`
+  --> src/packages/async_fns.rs:93:17
+   |
+93 |             let data = handler_after.get_ref().0.clone();
+   |                 ^^^^ help: if this is intentional, prefix it with an underscore: `_data`
+
+warning: `rpkg` (bin "rpkg") generated 6 warnings
+    Finished `release` profile [optimized] target(s) in 0.10s

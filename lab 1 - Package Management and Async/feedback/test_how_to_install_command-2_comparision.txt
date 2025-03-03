@@ -1,0 +1,4 @@
+{'php-horde-http', 'php-horde-controller', 'php-horde-constraint', 'php-horde-url', 'php-horde-log', '0ad', 'php-horde-injector', '0ad-data', 'php-horde-support', 'php-horde-stream-wrapper', 'libgloox18', 'php-horde-translation', 'php-horde-util', 'php-horde-exception', '0ad-data-common', 'php-horde-oauth'} vs {'php-horde-http', 'php-horde-controller', 'php-horde-constraint', 'php-common', 'php-horde-url', 'php-horde-log', 'php-horde-injector', 'php-horde-support', 'php-xml', 'php-horde-stream-wrapper', 'php-horde-translation', 'php-horde-util', 'php-horde-exception', 'php8.1-xml', 'php-horde-oauth', 'php8.1-common'}
+Elements in output but not in expected: {'0ad-data-common', '0ad', '0ad-data', 'libgloox18'}
+Elements in expected but not in output: {'php-common', 'php8.1-xml', 'php8.1-common', 'php-xml'}
+Symmetric difference between output and expected: {'php-xml', '0ad-data-common', 'php8.1-common', 'php-common', '0ad', '0ad-data', 'libgloox18', 'php8.1-xml'}

@@ -1,0 +1,1 @@
+"nqp" transitive dependency solution: "moarvm, libc6, libjs-angularjs, libjs-bootstrap, nqp-data, libffi8, libtommath1, libuv1, libgcc-s1, fonts-glyphicons-halflings, gcc-11-base"

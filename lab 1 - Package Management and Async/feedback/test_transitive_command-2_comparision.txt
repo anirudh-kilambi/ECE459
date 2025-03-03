@@ -1,0 +1,4 @@
+{'libgcc-s1', 'moarvm', 'gcc-11-base', 'libjs-angularjs', 'libffi8', 'libc6', 'libuv1', 'fonts-glyphicons-halflings', 'libtommath1', 'libjs-bootstrap', 'nqp-data'} vs {'libgcc-s1', 'moarvm', 'gcc-11-base', 'libjs-angularjs', 'libffi8', 'libc6', 'libuv1', 'fonts-glyphicons-halflings', 'libtommath1', 'libjs-bootstrap', 'nqp-data'}
+Elements in output but not in expected: set()
+Elements in expected but not in output: set()
+Symmetric difference between output and expected: set()

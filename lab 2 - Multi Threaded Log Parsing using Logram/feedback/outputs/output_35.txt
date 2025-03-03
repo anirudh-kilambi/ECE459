@@ -1,0 +1,2 @@
+Arguments: '--raw-healthapp data/HealthApp.log --to-parse "20171223-22:15:41:672|Step_StandReportReceiver|30002312|REPORT : 7028 5017 150539 240" --before "calculateAltitudeWithCache totalAltitude=240" --after "onStandStepChanged 3601" --cutoff 10 --num-threads 16'
+Expected concurrent program to be at least 5% faster than starter code

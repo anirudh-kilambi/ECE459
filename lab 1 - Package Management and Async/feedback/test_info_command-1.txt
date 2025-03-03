@@ -1,0 +1,6 @@
+Package: bash
+Version: 5.1-6
+MD5Sum: 95339277cdb215ea91851e02e8921e82
+Depends: base-files (>= 2.1.12), debianutils (>= 2.15)
+Installed-Version: 5.1-5+b1
+Newer-Available: true

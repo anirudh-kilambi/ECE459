@@ -1,0 +1,4 @@
+{'libmgl7.6.0', 'libmgl-data', 'libftgl2', 'libhdf4-0', 'libgsl27', 'libhpdf-2.3.0', 'libgslcblas0'} vs {'libmgl7.6.0', 'libmgl-data', 'libftgl2', 'libhdf4-0', 'libgsl27', 'libhpdf-2.3.0', 'libgslcblas0'}
+Elements in output but not in expected: set()
+Elements in expected but not in output: set()
+Symmetric difference between output and expected: set()

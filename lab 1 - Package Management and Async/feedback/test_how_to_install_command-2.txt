@@ -1,0 +1,414 @@
+Package php-horde-service-twitter:
+- dependency php-common 
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-controller "(>= 2.0.0)"
+- dependency php-horde-controller "(>= 2.0.0)"
+- dependency php-horde-controller "(>= 2.0.0)"
+- dependency php-horde-controller "(<< 3.0.0~alpha1)"
+- dependency php-horde-controller "(<< 3.0.0~alpha1)"
+- dependency php-horde-controller "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-http "(>= 2.0.0)"
+- dependency php-horde-http "(>= 2.0.0)"
+- dependency php-horde-http "(>= 2.0.0)"
+- dependency php-horde-http "(<< 3.0.0~alpha1)"
+- dependency php-horde-http "(<< 3.0.0~alpha1)"
+- dependency php-horde-http "(<< 3.0.0~alpha1)"
+- dependency php-horde-oauth "(>= 2.0.0)"
+- dependency php-horde-oauth "(>= 2.0.0)"
+- dependency php-horde-oauth "(>= 2.0.0)"
+- dependency php-horde-oauth "(<< 3.0.0~alpha1)"
+- dependency php-horde-oauth "(<< 3.0.0~alpha1)"
+- dependency php-horde-oauth "(<< 3.0.0~alpha1)"
+- dependency php-horde-url "(>= 2.0.0)"
+- dependency php-horde-url "(>= 2.0.0)"
+- dependency php-horde-url "(>= 2.0.0)"
+- dependency php-horde-url "(<< 3.0.0~alpha1)"
+- dependency php-horde-url "(<< 3.0.0~alpha1)"
+- dependency php-horde-url "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency 0ad-data "(>= 0.0.25b)"
+- dependency 0ad-data "(>= 0.0.25b)"
+- dependency 0ad-data "(<= 0.0.25b-1.1)"
+- dependency 0ad-data "(<= 0.0.25b-1.1)"
+- dependency 0ad-data-common "(>= 0.0.25b)"
+- dependency 0ad-data-common "(>= 0.0.25b)"
+- dependency 0ad-data-common "(<= 0.0.25b-1.1)"
+- dependency 0ad-data-common "(<= 0.0.25b-1.1)"
+- dependency libboost-filesystem1.74.0 "(>= 1.74.0)"
+- dependency libc6 "(>= 2.33)"
+- dependency libcurl3-gnutls "(>= 7.32.0)"
+- dependency libenet7 
+- dependency libenet7 
+- dependency libfmt8 "(>= 8.0.1+ds1)"
+- dependency libgcc-s1 "(>= 3.4)"
+- dependency libgl1 
+- dependency libgloox18 "(>= 1.0.24)"
+- dependency libgloox18 "(>= 1.0.24)"
+- dependency libicu67 "(>= 67.1-1~)"
+- dependency libminiupnpc17 "(>= 1.9.20140610)"
+- dependency libopenal1 "(>= 1.14)"
+- dependency libpng16-16 "(>= 1.6.2-1)"
+- dependency libsdl2-2.0-0 "(>= 2.0.12)"
+- dependency libsodium23 "(>= 1.0.14)"
+- dependency libstdc++6 "(>= 11)"
+- dependency libvorbisfile3 "(>= 1.1.2)"
+- dependency libwxbase3.0-0v5 "(>= 3.0.5.1+dfsg)"
+- dependency libwxgtk3.0-gtk3-0v5 "(>= 3.0.5.1+dfsg)"
+- dependency libx11-6 
+- dependency libxml2 "(>= 2.9.0)"
+- dependency zlib1g "(>= 1:1.2.0)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-injector "(>= 2.0.0)"
+- dependency php-horde-injector "(>= 2.0.0)"
+- dependency php-horde-injector "(<< 3.0.0~alpha1)"
+- dependency php-horde-injector "(<< 3.0.0~alpha1)"
+- dependency php-horde-log "(>= 2.0.0)"
+- dependency php-horde-log "(>= 2.0.0)"
+- dependency php-horde-log "(<< 3.0.0~alpha1)"
+- dependency php-horde-log "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-translation "(>= 2.2.0)"
+- dependency php-horde-translation "(>= 2.2.0)"
+- dependency php-horde-translation "(<< 3.0.0~alpha1)"
+- dependency php-horde-translation "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-http "(>= 2.0.0)"
+- dependency php-horde-http "(>= 2.0.0)"
+- dependency php-horde-http "(<< 3.0.0~alpha1)"
+- dependency php-horde-http "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-xml 
+- dependency php-xml 
+- dependency 0ad-data "(>= 0.0.25b)"
+- dependency 0ad-data "(>= 0.0.25b)"
+- dependency 0ad-data "(<= 0.0.25b-1.1)"
+- dependency 0ad-data "(<= 0.0.25b-1.1)"
+- dependency 0ad-data-common "(>= 0.0.25b)"
+- dependency 0ad-data-common "(>= 0.0.25b)"
+- dependency 0ad-data-common "(<= 0.0.25b-1.1)"
+- dependency 0ad-data-common "(<= 0.0.25b-1.1)"
+- dependency libboost-filesystem1.74.0 "(>= 1.74.0)"
+- dependency libc6 "(>= 2.33)"
+- dependency libcurl3-gnutls "(>= 7.32.0)"
+- dependency libenet7 
+- dependency libenet7 
+- dependency libfmt8 "(>= 8.0.1+ds1)"
+- dependency libgcc-s1 "(>= 3.4)"
+- dependency libgl1 
+- dependency libgloox18 "(>= 1.0.24)"
+- dependency libgloox18 "(>= 1.0.24)"
+- dependency libicu67 "(>= 67.1-1~)"
+- dependency libminiupnpc17 "(>= 1.9.20140610)"
+- dependency libopenal1 "(>= 1.14)"
+- dependency libpng16-16 "(>= 1.6.2-1)"
+- dependency libsdl2-2.0-0 "(>= 2.0.12)"
+- dependency libsodium23 "(>= 1.0.14)"
+- dependency libstdc++6 "(>= 11)"
+- dependency libvorbisfile3 "(>= 1.1.2)"
+- dependency libwxbase3.0-0v5 "(>= 3.0.5.1+dfsg)"
+- dependency libwxgtk3.0-gtk3-0v5 "(>= 3.0.5.1+dfsg)"
+- dependency libx11-6 
+- dependency libxml2 "(>= 2.9.0)"
+- dependency zlib1g "(>= 1:1.2.0)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-injector "(>= 2.0.0)"
+- dependency php-horde-injector "(>= 2.0.0)"
+- dependency php-horde-injector "(<< 3.0.0~alpha1)"
+- dependency php-horde-injector "(<< 3.0.0~alpha1)"
+- dependency php-horde-log "(>= 2.0.0)"
+- dependency php-horde-log "(>= 2.0.0)"
+- dependency php-horde-log "(<< 3.0.0~alpha1)"
+- dependency php-horde-log "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-translation "(>= 2.2.0)"
+- dependency php-horde-translation "(>= 2.2.0)"
+- dependency php-horde-translation "(<< 3.0.0~alpha1)"
+- dependency php-horde-translation "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-http "(>= 2.0.0)"
+- dependency php-horde-http "(>= 2.0.0)"
+- dependency php-horde-http "(<< 3.0.0~alpha1)"
+- dependency php-horde-http "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-xml 
+- dependency php-xml 
+- dependency fonts-dejavu-core 
+- dependency fonts-freefont-ttf 
+- dependency fonts-texgyre 
+- dependency libc6 "(>= 2.15)"
+- dependency libgcc-s1 "(>= 3.0)"
+- dependency libgnutls30 "(>= 3.7.0)"
+- dependency libidn12 "(>= 1.13)"
+- dependency libstdc++6 "(>= 5.2)"
+- dependency zlib1g "(>= 1:1.1.4)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-constraint "(>= 2.0.0)"
+- dependency php-horde-constraint "(>= 2.0.0)"
+- dependency php-horde-constraint "(<< 3.0.0~alpha1)"
+- dependency php-horde-constraint "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-stream-wrapper "(>= 2.0.0)"
+- dependency php-horde-stream-wrapper "(>= 2.0.0)"
+- dependency php-horde-stream-wrapper "(<< 3.0.0~alpha1)"
+- dependency php-horde-stream-wrapper "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency 0ad-data "(>= 0.0.25b)"
+- dependency 0ad-data "(>= 0.0.25b)"
+- dependency 0ad-data "(<= 0.0.25b-1.1)"
+- dependency 0ad-data "(<= 0.0.25b-1.1)"
+- dependency 0ad-data-common "(>= 0.0.25b)"
+- dependency 0ad-data-common "(>= 0.0.25b)"
+- dependency 0ad-data-common "(<= 0.0.25b-1.1)"
+- dependency 0ad-data-common "(<= 0.0.25b-1.1)"
+- dependency libboost-filesystem1.74.0 "(>= 1.74.0)"
+- dependency libc6 "(>= 2.33)"
+- dependency libcurl3-gnutls "(>= 7.32.0)"
+- dependency libenet7 
+- dependency libenet7 
+- dependency libfmt8 "(>= 8.0.1+ds1)"
+- dependency libgcc-s1 "(>= 3.4)"
+- dependency libgl1 
+- dependency libgloox18 "(>= 1.0.24)"
+- dependency libgloox18 "(>= 1.0.24)"
+- dependency libicu67 "(>= 67.1-1~)"
+- dependency libminiupnpc17 "(>= 1.9.20140610)"
+- dependency libopenal1 "(>= 1.14)"
+- dependency libpng16-16 "(>= 1.6.2-1)"
+- dependency libsdl2-2.0-0 "(>= 2.0.12)"
+- dependency libsodium23 "(>= 1.0.14)"
+- dependency libstdc++6 "(>= 11)"
+- dependency libvorbisfile3 "(>= 1.1.2)"
+- dependency libwxbase3.0-0v5 "(>= 3.0.5.1+dfsg)"
+- dependency libwxgtk3.0-gtk3-0v5 "(>= 3.0.5.1+dfsg)"
+- dependency libx11-6 
+- dependency libxml2 "(>= 2.9.0)"
+- dependency zlib1g "(>= 1:1.2.0)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-injector "(>= 2.0.0)"
+- dependency php-horde-injector "(>= 2.0.0)"
+- dependency php-horde-injector "(<< 3.0.0~alpha1)"
+- dependency php-horde-injector "(<< 3.0.0~alpha1)"
+- dependency php-horde-log "(>= 2.0.0)"
+- dependency php-horde-log "(>= 2.0.0)"
+- dependency php-horde-log "(<< 3.0.0~alpha1)"
+- dependency php-horde-log "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-translation "(>= 2.2.0)"
+- dependency php-horde-translation "(>= 2.2.0)"
+- dependency php-horde-translation "(<< 3.0.0~alpha1)"
+- dependency php-horde-translation "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(>= 2.0.0)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-horde-support "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-http "(>= 2.0.0)"
+- dependency php-horde-http "(>= 2.0.0)"
+- dependency php-horde-http "(<< 3.0.0~alpha1)"
+- dependency php-horde-http "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-xml 
+- dependency php-xml 
+- dependency fonts-dejavu-core 
+- dependency fonts-freefont-ttf 
+- dependency fonts-texgyre 
+- dependency libc6 "(>= 2.15)"
+- dependency libgcc-s1 "(>= 3.0)"
+- dependency libgnutls30 "(>= 3.7.0)"
+- dependency libidn12 "(>= 1.13)"
+- dependency libstdc++6 "(>= 5.2)"
+- dependency zlib1g "(>= 1:1.1.4)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-constraint "(>= 2.0.0)"
+- dependency php-horde-constraint "(>= 2.0.0)"
+- dependency php-horde-constraint "(<< 3.0.0~alpha1)"
+- dependency php-horde-constraint "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(>= 2.0.0)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-exception "(<< 3.0.0~alpha1)"
+- dependency php-horde-stream-wrapper "(>= 2.0.0)"
+- dependency php-horde-stream-wrapper "(>= 2.0.0)"
+- dependency php-horde-stream-wrapper "(<< 3.0.0~alpha1)"
+- dependency php-horde-stream-wrapper "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(>= 2.0.0)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-horde-util "(<< 3.0.0~alpha1)"
+- dependency php-common 
+- dependency php-common 
+- dependency php-common 
+- dependency php-common 
+- dependency php-common 
+- dependency php-common 
+"php-horde-service-twitter" to install: "0ad, php-horde-controller, php-horde-exception, php-horde-http, php-horde-oauth, php-horde-url, php-horde-util, 0ad-data, 0ad-data-common, libgloox18, php-horde-injector, php-horde-log, php-horde-support, php-horde-translation, php-horde-constraint, php-horde-stream-wrapper"

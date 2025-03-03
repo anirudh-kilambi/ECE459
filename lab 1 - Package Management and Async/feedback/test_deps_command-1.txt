@@ -1,0 +1,1 @@
+"apt" depends on "adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.3.14), debian-archive-keyring, libc6 (>= 2.33), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.7.0), libseccomp2 (>= 2.4.2), libstdc++6 (>= 11), libsystemd0"

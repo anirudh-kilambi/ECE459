@@ -1,0 +1,1 @@
+"libzydis-dev" transitive dependency solution: "libzycore-dev, libzydis3.2, libzycore1.1, libc6, libgcc-s1, gcc-11-base"

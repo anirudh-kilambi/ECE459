@@ -1,0 +1,29 @@
+Package 3depict:
+- dependency libc6 "(>= 2.33)"
++ libc6 satisfied by installed version 2.33-1
+- dependency libftgl2 "(>= 2.4.0)"
+-> not satisfied
+- dependency libgcc-s1 "(>= 3.0)"
++ libgcc-s1 satisfied by installed version 11.2.0-13
+- dependency libgl1 
++ libgl1 satisfied by installed version 1.4.0-1
+- dependency libglu1-mesa 
++ libglu1-mesa satisfied by installed version 9.0.1-1
+- dependency libgomp1 "(>= 6)"
++ libgomp1 satisfied by installed version 11.2.0-13
+- dependency libgsl27 "(>= 2.7.1)"
+-> not satisfied
+- dependency libmgl7.6.0 "(>= 2.5)"
+-> not satisfied
+- dependency libpng16-16 "(>= 1.6.2-1)"
++ libpng16-16 satisfied by installed version 1.6.37-3
+- dependency libqhull8.0 "(>= 2020.1)"
++ libqhull8.0 satisfied by installed version 2020.2-4
+- dependency libstdc++6 "(>= 11)"
++ libstdc++6 satisfied by installed version 11.2.0-13
+- dependency libwxbase3.0-0v5 "(>= 3.0.5.1+dfsg)"
++ libwxbase3.0-0v5 satisfied by installed version 3.0.5.1+dfsg-3
+- dependency libwxgtk3.0-gtk3-0v5 "(>= 3.0.5.1+dfsg)"
++ libwxgtk3.0-gtk3-0v5 satisfied by installed version 3.0.5.1+dfsg-3
+- dependency libxml2 "(>= 2.7.4)"
++ libxml2 satisfied by installed version 2.9.12+dfsg-5+b1

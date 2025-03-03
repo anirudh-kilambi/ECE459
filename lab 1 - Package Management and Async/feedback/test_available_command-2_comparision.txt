@@ -1,0 +1,2 @@
+Unique key in output: '- dependency libc6 "(>= 2.7)"'
+Unique key in expected: '- dependency "libc6 (>= 2.7)"'

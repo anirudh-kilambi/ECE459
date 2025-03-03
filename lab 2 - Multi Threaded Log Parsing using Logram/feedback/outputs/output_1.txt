@@ -1,0 +1,23 @@
+Arguments: '--raw-spark data/from_paper.log --to-parse "17/06/09 20:11:11 INFO storage.BlockManager: Found block rdd_42_20 locally" --before "split: hdfs://hostname/2kSOSP.log:29168+7292" --after "Found block" --cutoff 3 --single-map --num-threads 1'
+Time Elapsed for Single Map => 3.88804ms
+double dictionary list len 21, triple 27, all tokens 14
+printing dict: double
+1: ["block^rdd_42_24", "split:^hdfs://hostname/2kSOSP.log:0+7292", "rdd_42_20^locally", "rdd_42_22^locally", "block^rdd_42_23", "rdd_42_23^locally", "split:^hdfs://hostname/2kSOSP.log:21876+7292", "split:^hdfs://hostname/2kSOSP.log:14584+7292", "split:^hdfs://hostname/2kSOSP.log:7292+7292", "rdd_42_24^locally", "split:^hdfs://hostname/2kSOSP.log:29168+7292", "block^rdd_42_20", "block^rdd_42_22"]
+2: ["hdfs://hostname/2kSOSP.log:14584+7292^Input", "hdfs://hostname/2kSOSP.log:0+7292^Input", "hdfs://hostname/2kSOSP.log:29168+7292^Found", "hdfs://hostname/2kSOSP.log:7292+7292^Input", "hdfs://hostname/2kSOSP.log:21876+7292^Input"]
+4: ["Found^block"]
+5: ["Input^split:"]
+6: ["locally^Found"]
+---
+printing dict: triple
+1: ["block^rdd_42_22^locally", "Input^split:^hdfs://hostname/2kSOSP.log:14584+7292", "block^rdd_42_20^locally", "block^rdd_42_24^locally", "Input^split:^hdfs://hostname/2kSOSP.log:29168+7292", "Input^split:^hdfs://hostname/2kSOSP.log:21876+7292", "Found^block^rdd_42_20", "Found^block^rdd_42_24", "Found^block^rdd_42_23", "Input^split:^hdfs://hostname/2kSOSP.log:0+7292", "Input^split:^hdfs://hostname/2kSOSP.log:7292+7292", "Found^block^rdd_42_22", "block^rdd_42_23^locally"]
+2: ["rdd_42_23^locally^Found", "split:^hdfs://hostname/2kSOSP.log:21876+7292^Input", "split:^hdfs://hostname/2kSOSP.log:29168+7292^Found", "hdfs://hostname/2kSOSP.log:21876+7292^Input^split:", "hdfs://hostname/2kSOSP.log:0+7292^Input^split:", "rdd_42_22^locally^Found", "hdfs://hostname/2kSOSP.log:7292+7292^Input^split:", "split:^hdfs://hostname/2kSOSP.log:14584+7292^Input", "split:^hdfs://hostname/2kSOSP.log:7292+7292^Input", "hdfs://hostname/2kSOSP.log:29168+7292^Found^block", "split:^hdfs://hostname/2kSOSP.log:0+7292^Input", "hdfs://hostname/2kSOSP.log:14584+7292^Input^split:", "rdd_42_20^locally^Found"]
+6: ["locally^Found^block"]
+---
+["split:", "hdfs://hostname/2kSOSP.log:29168+7292", "Found", "block", "rdd_42_20", "locally", "Found", "block"]
+2-gram hdfs://hostname/2kSOSP.log:29168+7292^Found, count 2
+2-gram rdd_42_20^locally, count 1
+2-gram locally^Found, count 6
+2-gram block^rdd_42_20, count 1
+2-gram split:^hdfs://hostname/2kSOSP.log:29168+7292, count 1
+2-gram Found^block, count 4
+dynamic tokens: ["hdfs://hostname/2kSOSP.log:29168+7292", "rdd_42_20"]

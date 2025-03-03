@@ -1,0 +1,22 @@
+Any of the following matches:
+Exact Match: 
+Output: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tpm-tools/1.3.9.1-0.2%2Bb1
+verifying tpm-tools, matches: true 
+Expected: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tpm-tools/1.3.9.1-0.2%2Bb1
+verifying tpm-tools, matches: true
+
+Forgot http:// 
+Output: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tpm-tools/1.3.9.1-0.2%2Bb1
+verifying tpm-tools, matches: true 
+Expected Without http://: queueing request ece459.patricklam.ca:4590/rest/v1/checksums/tpm-tools/1.3.9.1-0.2%2Bb1
+verifying tpm-tools, matches: true
+
+No URL Encoding:
+Encoded Output: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tpm-tools/1.3.9.1-0.2%252Bb1%0Averifying%20tpm-tools%2C%20matches%3A%20true 
+Expected: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tpm-tools/1.3.9.1-0.2%2Bb1
+verifying tpm-tools, matches: true
+
+Forgot http:// and No URL Encoding: 
+Encoded Output Without http://:: queueing request ece459.patricklam.ca:4590/rest/v1/checksums/tpm-tools/1.3.9.1-0.2%252Bb1%0Averifying%20tpm-tools%2C%20matches%3A%20true 
+Expected Without http://: queueing request ece459.patricklam.ca:4590/rest/v1/checksums/tpm-tools/1.3.9.1-0.2%2Bb1
+verifying tpm-tools, matches: true

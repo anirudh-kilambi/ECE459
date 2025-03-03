@@ -1,0 +1,6 @@
+Package: apt
+Version: 2.3.14
+MD5Sum: 01e66e6e117c053a1cfb598c91a4e2f0
+Depends: adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.3.14), debian-archive-keyring, libc6 (>= 2.33), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.7.0), libseccomp2 (>= 2.4.2), libstdc++6 (>= 11), libsystemd0
+Installed-Version: 2.3.13
+Newer-Available: true

@@ -1,0 +1,6 @@
+Package: cryptsetup
+Version: 2:2.4.2-1
+MD5Sum: 0676a975eaee5a7b87bc036bc488d9ab
+Depends: cryptsetup-bin (>= 2:1.6.0), dmsetup, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.15), libcryptsetup12 (>= 2:2.4), libjson-c5 (>= 0.15), libssh-4 (>= 0.8.0)
+Installed-Version: 2:2.4.2-1
+Newer-Available: false

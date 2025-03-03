@@ -1,0 +1,22 @@
+Any of the following matches:
+Exact Match: 
+Output: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tcl/8.6.11%2B1
+verifying tcl, matches: true 
+Expected: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tcl/8.6.11%2B1
+verifying tcl, matches: true
+
+Forgot http:// 
+Output: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tcl/8.6.11%2B1
+verifying tcl, matches: true 
+Expected Without http://: queueing request ece459.patricklam.ca:4590/rest/v1/checksums/tcl/8.6.11%2B1
+verifying tcl, matches: true
+
+No URL Encoding:
+Encoded Output: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tcl/8.6.11%252B1%0Averifying%20tcl%2C%20matches%3A%20true 
+Expected: queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tcl/8.6.11%2B1
+verifying tcl, matches: true
+
+Forgot http:// and No URL Encoding: 
+Encoded Output Without http://:: queueing request ece459.patricklam.ca:4590/rest/v1/checksums/tcl/8.6.11%252B1%0Averifying%20tcl%2C%20matches%3A%20true 
+Expected Without http://: queueing request ece459.patricklam.ca:4590/rest/v1/checksums/tcl/8.6.11%2B1
+verifying tcl, matches: true

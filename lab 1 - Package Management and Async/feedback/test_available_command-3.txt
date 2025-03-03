@@ -1,0 +1,7 @@
+Package r-bioc-seqlogo:
+- dependency r-base-core "(>= 4.1.2-1)"
+-> not satisfied
+- dependency r-api-4.0 
+-> not satisfied
+- dependency r-api-bioc-3.14 
+-> not satisfied

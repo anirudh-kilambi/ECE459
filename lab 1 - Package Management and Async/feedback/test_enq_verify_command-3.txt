@@ -1,0 +1,2 @@
+queueing request http://ece459.patricklam.ca:4590/rest/v1/checksums/tcl/8.6.11%2B1
+verifying tcl, matches: true

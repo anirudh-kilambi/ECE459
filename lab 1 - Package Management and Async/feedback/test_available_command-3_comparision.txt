@@ -1,0 +1,6 @@
+Unique key in output: '- dependency r-api-4.0'
+Unique key in output: '- dependency r-base-core "(>= 4.1.2-1)"'
+Unique key in output: '- dependency r-api-bioc-3.14'
+Unique key in expected: '- dependency "r-api-4.0"'
+Unique key in expected: '- dependency "r-api-bioc-3.14"'
+Unique key in expected: '- dependency "r-base-core (>= 4.1.2-1)"'
