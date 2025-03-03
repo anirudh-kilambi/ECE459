@@ -9,6 +9,7 @@ To get more ideas on how each of the labs work, take a look at the `README.md` i
 
 ### Lab 1:
 - You'll be screwing around a lot, I'd recommend just reading the `README` and deleting my implementations of functions if you wanna try yourself.
+- If you're wondering how to test out the async stuff, take a look at the `README`. You'll need to clone a public repo from a professor.
 
 ### Lab 2:
 - This one was a lot more involved. I'd recommend reading my commit logs to understand my implementation, and then deleting my helper functions. Give it a try yourself. 
